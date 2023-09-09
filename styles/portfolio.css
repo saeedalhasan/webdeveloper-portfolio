@@ -158,7 +158,38 @@ main section{
 
 /* resume section */
 .resume-column-title{
-    color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column-title, .resume-item-title{
+    color: #474747;
+}
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.resume-item-institute{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.resume-item-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+}
+.resume-container hr{
+    margin: 45px 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
