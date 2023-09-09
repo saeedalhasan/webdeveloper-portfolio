@@ -198,6 +198,33 @@ main section{
 footer{
     display: flex;
     background: #FFF8F3;
+    gap: 100px;
     margin-top: 115px;
     padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
+#footer-title-one, #footer-title-two{
+    text-align: left;
+}
+#connect-desc{
+    text-align: justify;
+    width: 560px;
+}
+.social-links a{
+    margin-right: 25px;
 }
