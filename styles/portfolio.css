@@ -17,6 +17,16 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
+.btn-contact{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background: none;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-left: 15px;
+}
 
 .section-title {
     color: #181818;
